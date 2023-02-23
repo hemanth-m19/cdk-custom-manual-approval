@@ -1,5 +1,6 @@
 {
-  "name": "manualapproval",
+  "name": "@hemanth/custom-manual-approval",
+  "description": "This project provides a CDK construct for CodePipeline manual approval with SNS topic prop.",
   "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,5 +21,8 @@
   "peerDependencies": {
     "aws-cdk-lib": "2.54.0",
     "constructs": "^10.0.0"
+  },
+  "author": {
+    "name": "Hemanth Mallareddy"
   }
 }

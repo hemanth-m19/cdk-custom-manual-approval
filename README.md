@@ -1,12 +1,6 @@
-# Welcome to your CDK TypeScript Construct Library project
+# AWS CDK Custom CodePipeline Manual Approval
 
-You should explore the contents of this project. It demonstrates a CDK Construct Library that includes a construct (`Manualapproval`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+You should explore the contents of this project. It demonstrates a CDK Construct Library that includes a construct (`ManualApprovalWithSNS`)
+which contains a custom CodePipeline manual approval action that extends comments and sns topic props.
 
-The construct defines an interface (`ManualapprovalProps`) to configure the visibility timeout of the queue.
-
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
+The construct defines an interface (`ManualApprovalWithSNSProps`) to configure the additional comment and SNS topic.
